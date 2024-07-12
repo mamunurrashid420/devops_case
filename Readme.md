@@ -3,13 +3,13 @@ DevOps Case Study
 
 Ansible stages
 -----------
-'
+'''
 "ansible all --list-hosts -v"
-'
+'''
 ## First of all,create a logrotate folder 
-'
+'''
 mkdir /etc/cron.d/logrotate_cron
-'
+'''
 '*/10 2-3 * * * root /usr/sbin/logrotate /etc/logrotate.conf'
 then create yml file 
 logrotate_cron.yml
