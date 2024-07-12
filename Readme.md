@@ -1,6 +1,11 @@
 # devops-case-study
 DevOps Case Study
 
+```
+sudo ip netns add red
+sudo ip netns add green
+```
+
 Ansible stages
 -----------
 '''
